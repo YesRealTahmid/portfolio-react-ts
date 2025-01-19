@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { IoEyeOutline } from "react-icons/io5";
 
@@ -48,10 +49,12 @@ const Projects: React.FC = () => {
                                 <div className="project-item-icon-box">
                                     <IoEyeOutline />
                                 </div>
-                                <img
+                                <Image
                                     src={placeholderImageUrl}
                                     alt={repo.name}
                                     loading="lazy"
+                                    width={300}
+                                    height={200}
                                 />
                             </figure>
                             <h3 className="project-title">{repo.name}</h3>

@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { LuCodeXml } from "react-icons/lu";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const Sidebar: React.FC = () => {
     const pathname = usePathname();
@@ -35,15 +36,15 @@ const Sidebar: React.FC = () => {
                 {isDashboardPage ? (
                     <ul className="navigation-list text-white leading-10">
                         <li className="navigation-item">
-                            <a href="/" className="navigation-link">
+                            <Link  href="/" className="navigation-link">
                                 Home
-                            </a>
-                            <a href="/dashboard" className="navigation-link">
+                            </Link>
+                            <Link href="/dashboard" className="navigation-link">
                                 Dashboard
-                            </a>
-                            <a href="/dashboard/editBlog" className="navigation-link">
+                            </Link>
+                            <Link href="/dashboard/editBlog" className="navigation-link">
                                 Blogs
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 ) : (
