@@ -66,7 +66,7 @@ function Page(): JSX.Element {
   const onSubmit = async (data: FormData) => {
     console.log("Form data submitted:", data);
     try {
-      const response = await fetch("http://localhost:3000/api/topics", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/topics`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -27,7 +27,7 @@ const RemoveBtn: React.FC<RemoveBtnProps> = ({ id }) => {
 
         if (result.isConfirmed) {
             // Proceed with the delete action if the user confirmed
-            const res = await fetch(`http://localhost:3000/api/topics?id=${id}`, {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/topics?id=${id}`, {
                 method: 'DELETE',
             });
 

@@ -100,12 +100,7 @@ const Page: React.FC = () => {
                 </td>
                 <td className="text-center">
                   <div className="flex justify-center space-x-4">
-                    {/* <Link href={`/dashboard/editBlog/updateBlog/${topic._id}`}>
-                      <button className="bg-[#1e1e1f] text-white px-4 py-4 rounded">
-                        <AiOutlineEdit />
-                      </button>
-                    </Link> */}
-
+                   
                     <RemoveBtn id={topic._id}></RemoveBtn>
                   </div>
                 </td>
