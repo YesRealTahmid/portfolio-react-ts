@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Rafiq Ahmed",
+        "avatar": "/images/avatar-1.png",
+        "testimonial": "Working with Zahid on the Miles Transport Management project was a fantastic experience. His technical skills and attention to detail helped us streamline our transportation logistics efficiently. The web application he developed is user-friendly and has significantly improved our operational efficiency. We appreciated his proactive communication and problem-solving approach throughout the project."
+    },
+    {
+        "name": "Sabiha Rahman",
+        "avatar": "/images/avatar-2.png",
+        "testimonial": "Zahid’s expertise was crucial in delivering our Doctor Appointment & Counter Application. The platform is intuitive and handles complex scheduling with ease. His dedication to understanding our needs and delivering a reliable solution was impressive. We’re particularly pleased with the application's performance and its positive impact on our clinic's workflow."
+    },
+    {
+        "name": "Zarifah Noor",
+        "avatar": "/images/avatar-3.png",
+        "testimonial": "The Health Monitoring IoT Application developed by Zahid has been a game-changer for our health tech initiatives. His ability to integrate IoT devices with a robust web application has allowed us to offer real-time health monitoring to our users. The project was completed on time, and the quality of work exceeded our expectations. We look forward to future collaborations."
+    }
+]

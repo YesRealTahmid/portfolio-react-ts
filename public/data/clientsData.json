@@ -1,0 +1,52 @@
+[
+    {
+      "name": "React",
+      "image": "/images/react.png"
+
+    },
+    {
+      "name": "JavaScript",
+      "image": "/images/js.png"
+
+    },
+    {
+      "name": "VS Code",
+      "image": "/images/vsc.png"
+
+    },
+    {
+      "name": "C Programming",
+      "image": "/images/c.png"
+
+    },
+    {
+      "name": "Injection Framework",
+      "image": "/images/inj.png"
+
+    },
+    {
+      "name": "MySQL",
+      "image": "/images/mysql.png"
+
+    },
+    {
+      "name": "Git",
+      "image": "/images/git.png"
+
+    },
+    {
+      "name": "AWS",
+      "image": "/images/aws.png"
+
+    },
+    {
+      "name": "NGINX",
+      "image": "/images/ngix.png"
+
+    },
+    {
+      "name": "Arduino",
+      "image": "/images/arduino.png"
+
+    }
+  ]

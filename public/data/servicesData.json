@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Front End Development",
+        "description": "Specializing in React-based web applications",
+        "image": "/images/icon-design.svg"
+    },
+    {
+        "title": "Blockchain NFT",
+        "description": "Advanced Blockchain research and development",
+        "image": "/images/icon-app.svg"
+    }
+]
