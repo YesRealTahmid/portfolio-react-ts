@@ -7,8 +7,9 @@ interface Params {
     id: string;
 }
 
-export async function PUT(request: NextRequest, { params }: { params: Params }): Promise<NextResponse> {
-    const { id } = params;
+export async function PUT(request: NextRequest, { params }: { params: Promise<Params> }): Promise<NextResponse> {
+    const id = (await params).id;
+
     const { newTitle: title, newDescription: description } = await request.json();
 
     try {
@@ -31,8 +32,8 @@ export async function PUT(request: NextRequest, { params }: { params: Params }):
     }
 }
 
-export async function GET(request: NextRequest, { params }: { params: Params }): Promise<NextResponse> {
-    const { id } = params;
+export async function GET(request: NextRequest, { params }: { params: Promise<Params> }): Promise<NextResponse> {
+    const id = (await params).id;
 
     try {
         await connectMongoDB();

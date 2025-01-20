@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX } from 'react';
 
 const GithubGraph: React.FC = () => {
     // Define the contribution level type based on the gitGraph value

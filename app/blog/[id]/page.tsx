@@ -7,12 +7,19 @@ interface Blog {
   category: string;
   image?: string;
   content?: string;
+  topic?: {
+    title: string;
+    category: string;
+    date: string;
+    image: string;
+    description: string;
+  };
 }
 
 interface BlogPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
 async function fetchBlog(id: string): Promise<Blog | undefined> {

@@ -8,7 +8,7 @@ interface Testimonial {
   avatar: string;
   name: string;
   testimonial: string;
-  date: string;
+  date?: string;
 }
 
 export default function Testimonial() {

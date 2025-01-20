@@ -117,7 +117,7 @@ function EditBlog({ id, title, description }: EditBlogProps) {
       {/* Submit Button */}
       <button
         type="submit"
-        className="button text-white mt-14"
+        className="button text-white mt-14" 
       >
         Submit
       </button>
